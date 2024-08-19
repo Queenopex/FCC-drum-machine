@@ -75,12 +75,12 @@ function App() {
       <h1>FCC DRUM MACHINE</h1>
       <div className='whole-drum'>
         {audioClips.map((clip) => (
-          <Drum audioClip={clip}  key={clip.keyTrigger}/>
+          <Drum audioClip={clip}  key={clip.keyTrigger} />
         ))}
       </div>
       <div id='display'></div>
     </div>
   );
-}
+};
 
 export default App

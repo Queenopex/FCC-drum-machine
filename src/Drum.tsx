@@ -22,6 +22,6 @@ const Drum = ({audioClip}: DrumProps) => {
             {audioClip.keyTrigger}
         </button>
     )
-}
+};
 
 export default Drum
